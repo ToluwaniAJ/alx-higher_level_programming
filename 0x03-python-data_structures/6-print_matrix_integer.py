@@ -2,7 +2,7 @@
 
 def print_matrix_integer(matrix=[[]]):
   for row in matrix:
-      for i, c in enumerate(r):
+      for i, c in enumerate(row):
           x = ' '
           if i == len(row) - 1:
               x = ''
