@@ -1,9 +1,14 @@
 #!/usr/bin/python3
 
 
+
 """
 holds a class that defines a retangle
 """
+
+
+'''Defines a Rectangle class.'''
+
 
 
 class Rectangle:
@@ -12,9 +17,17 @@ class Rectangle:
     """
 
     def __init__(self, width=0, height=0):
+
         """
         initialize a new instance of a rectangle
         """
+
+        '''Initialize a new Rectangle,
+
+        Args:
+        width(int): width of the rectangle,
+        height(int): height of the rectangle'''
+
         self.height = height
         self.width = width
 
