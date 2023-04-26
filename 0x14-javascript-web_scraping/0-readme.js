@@ -1,5 +1,4 @@
 #!/usr/bin/node
-'use strict';
 
 const fs = require('fs');
 
